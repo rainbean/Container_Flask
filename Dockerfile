@@ -10,4 +10,4 @@ RUN pip --no-cache-dir install \
         firebase-admin \
         opencv-python \
         Flask Flask-Caching flask-cors \
-        pymongo
+        pymongo polyline
