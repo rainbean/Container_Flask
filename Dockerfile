@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM tiangolo/uwsgi-nginx-flask:python3.7
 
 LABEL maintainer "Jimmy Lee"
 
@@ -9,5 +9,6 @@ RUN pip --no-cache-dir install \
         scikit-image \
         firebase-admin \
         opencv-python \
-        Flask Flask-Caching flask-cors \
-        pymongo polyline
+        Flask \
+        pymongo \
+        polyline
