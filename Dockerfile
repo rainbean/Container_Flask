@@ -10,5 +10,7 @@ RUN pip --no-cache-dir install \
         firebase-admin \
         opencv-python \
         Flask \
+        Flask-Executor \
         pymongo \
-        polyline
+        polyline \
+        ujson
