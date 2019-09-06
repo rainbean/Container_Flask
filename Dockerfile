@@ -12,4 +12,5 @@ RUN pip --no-cache-dir install \
         Flask \
         pymongo \
         polyline \
-        ujson
+        ujson \
+        filelock
